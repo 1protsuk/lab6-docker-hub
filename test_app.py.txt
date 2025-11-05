@@ -7,5 +7,7 @@ def test_hello_route():
     assert b"Hello from Docker" in response.data
 
     # TODO: Вкажіть ваше прізвище для перевірки
-    student_surname_bytes = b"STUDENT_SURNAME" 
+   student_surname_bytes = b"ПРОЦУК"
+
     assert student_surname_bytes in response.data
+
